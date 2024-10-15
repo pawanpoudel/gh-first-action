@@ -8,5 +8,9 @@ jobs:
         run: echo "Hello World!"
       - name: Print goodbye
         run: echo "Done - bye!"
+      - name: Run multiple commands
+        run: |
+          echo "First output"
+          echo "Second output"
 
 # workflow_dispatch allows us to run this workflow manually.

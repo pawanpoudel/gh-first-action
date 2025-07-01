@@ -11,4 +11,4 @@ jobs:
       - name: Multi line command
         run: |
              echo "First output"
-             echo "Second output'
+             echo "Second output"
